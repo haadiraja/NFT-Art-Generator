@@ -2,7 +2,7 @@ const basePath = process.cwd();
 const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 const { NETWORK } = require(`${basePath}/constants/network.js`);
 
-const network = NETWORK.eth;
+const network = NETWORK.sol;
 
 // General metadata for Ethereum
 const namePrefix = "Apex Ninja Guru";
@@ -27,8 +27,8 @@ const layerConfigurations = [
     growEditionSizeTo: 20,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
+      { name: "Skin Colors" },
+      { name: "Dresses" },
       { name: "Iris" },
       { name: "Shine" },
       { name: "Bottom lid" },
