@@ -10,9 +10,9 @@ const description = "Diverse Tribe of 7777 Ninja Gurus";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
-  symbol: "YC",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
-  external_url: "https://apexninjaguru.com/",
+  symbol: "DD",
+  seller_fee_basis_points: 350, // Define how much % you want from secondary market sales 1000 = 10%
+  external_url: "https://dopedudes.io/",
   creators: [
     {
       address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
@@ -27,12 +27,12 @@ const layerConfigurations = [
     growEditionSizeTo: 20,
     layersOrder: [
       { name: "Background" },
-      { name: "Skin Colors" },
       { name: "Dresses" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Skin Colors" },
+      { name: "Tattoos" },
+      { name: "Faces" },
+      { name: "Head" },
+      { name: "Ear Rings" },
     ],
   },
 ];
@@ -42,8 +42,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 4500,
+  height: 5400,
   smoothing: false,
 };
 
